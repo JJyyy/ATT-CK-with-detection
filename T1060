@@ -1,1 +1,18 @@
+T1060-Registry Run Keys / Startup Folder（注册表运行键/启动文件夹）
 
+ATT&CK中的描述
+在注册表或启动文件夹中向“运行键”添加条目将导致在用户登陆时执行引用的程序，这些程序将在用户的上下文中执行，并具有账户的关联权限水平。
+
+Windows系统中默认创建以下运行键：
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
+以下注册表项可用于设置持久性的启动文件夹：
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
