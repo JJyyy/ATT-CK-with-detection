@@ -32,6 +32,8 @@ detection:
             - 'GET'  #再出现GET请求方法
         User-Agent:
             - 'Microsoft BITS.*' #协议头UA字段包含Microsoft BITS字符串
+        HTTP.stat-code:
+            - '200'  #返回码为200，表示现在任务执行成功
     condition: selection
 falsepositives:
     - Unknown
