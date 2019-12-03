@@ -9,6 +9,12 @@
 ## 测试过程复现
 具体执行方法可参考官方网站。
 
+## 流量痕迹捕获
+![samr](https://github.com/JJyyy/ATT-CK-with-detection/blob/master/Discvoery/samr.png)
+![lsarpc](https://github.com/JJyyy/ATT-CK-with-detection/blob/master/Discvoery/lsarpc.png)
+![srvsvc](https://github.com/JJyyy/ATT-CK-with-detection/blob/master/Discvoery/srvsvc.png)
+![zeek解析结果](https://github.com/JJyyy/ATT-CK-with-detection/blob/master/Discvoery/samr.png)
+
 ## 流量检测规则/思路
 ```yml
 title: BloodHound探测
