@@ -28,7 +28,6 @@ detection:
             - '445'
     selection2:
         endpoint:
-            - 'winreg'
             - 'samr'
             - 'lsarpc'
             - 'srvsvc'
