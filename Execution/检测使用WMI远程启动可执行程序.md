@@ -40,4 +40,4 @@ level: medium
 
 ## 参考
 [ATT&CK T1047](https://attack.mitre.org/techniques/T1047)
-[certutil如何使用](https://lolbas-project.github.io/lolbas/Binaries/Certutil/)
+
